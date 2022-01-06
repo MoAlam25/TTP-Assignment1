@@ -67,10 +67,11 @@ main {
   grid-template: auto / 1fr 2fr;
   position: relative;
   padding: 1rem;
-  gap: 3rem;
+  gap: 3.5rem;
 }
 
 .sad-turtle {
+  margin-left: 1rem;
   height: 220px;
   border-radius: 10px;
 }
@@ -83,10 +84,12 @@ main {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.7rem;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.527);
 }
 
 .donation-description {
-  max-width: 80%;
+  max-width: 90%;
   font-size: 0.9rem;
 }
 
@@ -96,8 +99,8 @@ main {
 
 .currency-symbol {
   position: absolute;
-  bottom: 13%;
-  left: 45%;
+  bottom: 16%;
+  left: 48%;
 }
 
 input::-webkit-outer-spin-button,
@@ -132,4 +135,48 @@ input::-webkit-inner-spin-button {
 
 .donation-btn:active {
   background-color: rgb(140, 167, 216);
+}
+
+.info-heading {
+  margin-top: 0.7rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.turtle-intro {
+  letter-spacing: 0px;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.turtle-images-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.turtle1,
+.turtle2 {
+  width: 450px;
+  height: 300px;
+}
+
+.turtle-hazard-header {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.turtle-hazard {
+  margin-bottom: 0rem;
+  font-size: 1.1rem;
+}
+
+hr {
+  text-align: left;
+  width: 100px;
+}
+
+.turtle-info {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
 }
