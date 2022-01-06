@@ -1,0 +1,245 @@
+body {
+  background-image: url("../images/bkg_img_1.jpeg");
+  width: 900px;
+  height: 100%;
+  margin: 10px auto;
+  padding: 0px 20px;
+  font-family: Chalkduster, 'Shadows Into Light', CHAWP, Sketchy, Peawalker, fantasy, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* logo and navbar style */
+
+.header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.slogan {
+  background: rgba(255, 255, 255, 0.7);
+  width: 100px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 0 #bcbcbc;
+}
+
+.nav-bar {
+  background-color: rgba(87, 127, 148, 0.95);
+  margin: 30px auto auto;
+  padding: 18px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: white;
+  display: inline;
+  padding: 0px 75px;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+/* main content style */
+
+main {
+  background-color: rgba(76, 218, 218, 0.95);
+  margin-top: 50px;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+/* donation page style */
+
+.donation-container {
+  display: grid;
+  grid-template: auto / 1fr 2fr;
+  position: relative;
+  padding: 1rem;
+  gap: 3.5rem;
+}
+
+.sad-turtle {
+  margin-left: 1rem;
+  height: 220px;
+  border-radius: 10px;
+}
+
+.donation {
+  margin: auto 0;
+}
+
+.donation-heading {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: normal;
+  text-shadow: 1px 1px 1px rgba(128, 128, 128, 0.527);
+}
+
+.donation-description {
+  max-width: 90%;
+  font-size: 0.9rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.currency-symbol {
+  position: absolute;
+  bottom: 10%;
+  left: 48%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.donation-input {
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  border: 1px solid teal;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.donation-input:focus {
+  outline: none;
+  border: 2px solid rgb(55, 192, 55);
+}
+
+.donation-btn {
+  background-color: rgb(188, 250, 188);
+  padding: 0.9rem 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  border: 0.3px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.donation-btn:active {
+  background-color: rgb(140, 167, 216);
+}
+
+/* information page style */
+
+.info-heading {
+  margin-top: 0.7rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.turtle-intro {
+  letter-spacing: 0px;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.turtle-images-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.turtle1,
+.turtle2 {
+  width: 450px;
+  height: 300px;
+}
+
+.turtle-hazard-header {
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.turtle-hazard {
+  margin-bottom: 0rem;
+  font-size: 1.1rem;
+}
+
+hr {
+  text-align: left;
+  width: 100px;
+}
+
+.turtle-info {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+}
+
+/* main page style */
+
+.main-container {
+  padding: 0;
+  padding-bottom: 2rem;
+}
+
+.main-content-header {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.main-turtle-image {
+  max-width: 900px;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.shelter-1-container {
+  margin: 2rem 0.5rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.turtle-image-main {
+  max-width: 420px;
+  border-radius: 6px;
+  padding: 0rem 1rem;
+  border-radius: 6%;
+}
+
+.shelter-info-header {
+  padding: 0rem 1rem;
+  letter-spacing: 1px;
+}
+
+.shelter-info {
+  padding: 0rem 1rem;
+}
+
+.help-container {
+  text-align: center;
+}
+
+.help-message {
+  margin-bottom: 0;
+}
+
+.contribute {
+  margin-top: 1rem;
+  margin-left: 0;
+}

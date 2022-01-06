@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Assignment 1</title>
-        <link href="mainStyle.css" rel = "stylesheet">
-        <style></style>
-        <script></script>
-    </head>
-    <body>
-        <section class="myPage">
-        <section class = "header" >
-            <img src="turtleLogo.jpeg" alt="Turtle Logo" id="logo">
-            <p class="slogan"> Let's save the turtles! </p>
-        </section>
-        <nav>
-            <div class = "nav-bar">
-                <div class="nav-link"> <a href="index.html"> HOME </a> </div> 
-                <div class="nav-link"> <a href="donation.html"> DONATIONS </a> </div>  
-                <div class="nav-link"> <a href="turtlesInfo.html"> INFORMATION </a> </div> 
-            </div>
-        </nav>
+  <head>
+    <title>Turtle Shellter</title>
+    <link href="./styles/mainStyle.css" rel="stylesheet" />
+    <style></style>
+    <script></script>
+  </head>
 
-        <main>
-            <p>
-                "Lorem ipsum dolor sit amet, an consequat assentior vel. Mea vocent habemus suscipiantur et, vidit vocibus ut qui, et per ludus solet hendrerit. Hinc fabellas te vim, ex duis aliquip laoreet mea. In vidit movet regione nam. Eam ex vero partem contentiones, ei vis labitur tacimates accusata, et volutpat omittantur usu. Vim no natum virtute vivendo.
+  <body>
+    <!-- logo -->
 
-                Te nisl invidunt duo, cu dicat consul detracto pri. Ferri fabellas cum no, ad quot vide platonem vel, nibh laboramus expetendis cum in. Aeterno labitur no mea, te nostrum insolens nam. Eam ne nemore habemus eleifend, no sit inani nostro meliore, est cu illum rationibus. Id ullum omnium labitur pri, et eos quod facilisis, zril putant omnium ut eum.
-                <br>
-                <br>
-                <br>
-                Id eos elit utinam euismod, viderer imperdiet mea in. Cu nonumy inimicus omittantur pro, eum dictas mandamus imperdiet ad, accusam propriae ullamcorper his eu. Omnis exerci volutpat nec ea, no solum impedit mea. Te dolor omittam oportere nam, insolens qualisque duo ne, ea feugiat eligendi comprehensam sed. Lobortis rationibus in vix, ea his voluptaria definitiones.
-
-                Id per iuvaret officiis convenire, illum fierent vulputate id pri, alia adhuc alienum sit ne. Pri te soleat latine, tempor suscipit constituam no pri, sumo legere accusam quo an. Facilisis adolescens id vel, justo lobortis cum at. Duo et prima atqui aeque. Eu quot magna constituto eam, id aperiri debitis fabellas eum.
-
-                Te dictas volutpat eos. Alienum suscipit elaboraret est at, cu eos ipsum scriptorem. Pro in platonem vulputate efficiantur, iusto percipit mel no. Mea debitis incorrupte definitiones eu, tale meis ut pro. Utroque salutatus eos ut. In usu dico utinam mediocrem, malis equidem tibique cu duo. Qui fastidii prodesset mediocritatem an."
-            </p>
-        </main>
-
+    <section class="header">
+      <img src="./images/turtleLogo.jpeg" alt="Turtle Logo" id="logo" />
+      <p class="slogan">Let's save the turtles!</p>
     </section>
 
-    </body>
+    <!-- navbar -->
+
+    <nav>
+      <div class="nav-bar">
+        <div class="nav-link"><a href="./index.html"> HOME </a></div>
+        <div class="nav-link"><a href="./pages/donation.html"> DONATIONS </a></div>
+        <div class="nav-link"><a href="./pages/turtlesInfo.html"> INFORMATION </a></div>
+      </div>
+    </nav>
+
+    <!-- organization info -->
+
+    <main class="main-container">
+      <img class="main-turtle-image" src="./images/turtle-help3.jpg" alt="turtle" />
+      <h1 class="main-content-header">About Us</h1>
+      <hr />
+
+      <div class="shelter-1-container">
+        <img class="turtle-image-main" src="./images/turtle-help2.jpg" alt="turtle" />
+        <div>
+          <h2 class="shelter-info-header">Who we are...</h2>
+          <p class="shelter-info">
+            At the Sea Turtle Shellter, we are dedicated to rescuing and caring for endangered Sea
+            Turtles. Our mission is to fix up sea turtles that have been predated on or have had
+            their habitats destroyed. We see sea turtles that have missing limbs, turtles that are
+            malnourished, or young sea turtles that can not survive on their own. We do our best to
+            help protect these turtles until they become self-sufficient again and are able to go
+            back into the ocean again.
+          </p>
+        </div>
+      </div>
+      <div class="shelter-1-container">
+        <div>
+          <h2 class="shelter-info-header">What we do...</h2>
+          <p class="shelter-info">
+            Our team of volunteers helps Sea Turtles through the rehabilitation process before being
+            fully ready to re-integrate into ocean life. We take the time and care to make sure that
+            each individual Sea Turtle gets the specific care it needs. Some of our rehabilitation
+            programs involve teaching sea turtles how to use prosthetic limbs, helping young turtles
+            swim properly, and designing feeding regimens for malnourished sea turtles.
+          </p>
+        </div>
+        <img class="turtle-image-main" src="./images/turtle-help1.jpg" alt="turtle" />
+      </div>
+
+      <div class="help-container">
+        <h2 class="help-message">Help us save the Sea Turtles!</h2>
+        <hr />
+        <a href="./pages/donation.html">
+          <button class="donation-btn contribute">Contribute!</button>
+        </a>
+      </div>
+    </main>
+  </body>
 </html>

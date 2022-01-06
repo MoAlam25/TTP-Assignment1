@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/mainStyle.css" />
+    <title>Turtle Shellter</title>
+  </head>
+
+  <body>
+
+    <!-- Logo -->
+    
+    <section class="header">
+      <img src="../images/turtleLogo.jpeg" alt="Turtle Logo" id="logo" />
+      <p class="slogan">Let's save the turtles!</p>
+    </section>
+
+    <!-- Navbar -->
+
+    <nav>
+      <div class="nav-bar">
+        <div class="nav-link"><a href="../index.html"> HOME </a></div>
+        <div class="nav-link"><a href="./donation.html"> DONATIONS </a></div>
+        <div class="nav-link"><a href="./turtlesInfo.html"> INFORMATION </a></div>
+      </div>
+    </nav>
+
+    <!-- Donation Main Content -->
+
+    <main class="donation-container">
+      <img class="sad-turtle" src="../images/poor-turtle.jpg" alt="sad-turtle" />
+      <div class="donation">
+        <h2 class="donation-heading">Donations</h2>
+        <p class="donation-description">
+          Your donations will go directly towards purchasing the resources needed to help clean and
+          feed young and old sea turtles alike. Every little donation helps no matter how small or
+          large the amount. We need your help and generosity in order to rescue these endangered
+          turtles. Donate to the Sea Turtle Shellter!
+        </p>
+        <div className="input-container">
+          <span class="currency-symbol">$</span>
+          <input class="donation-input" type="number" min="0.01" step="0.01" />
+          <button class="donation-btn">Donate</button>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>
