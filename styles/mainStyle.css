@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 10px auto;
   padding: 0px 20px;
-  font-family: Chalkduster, fantasy, sans-serif;
+  font-family: Chalkduster, 'Shadows Into Light', CHAWP, Sketchy, Peawalker, fantasy, sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -105,7 +105,7 @@ main {
 
 .currency-symbol {
   position: absolute;
-  bottom: 16%;
+  bottom: 10%;
   left: 48%;
 }
 
