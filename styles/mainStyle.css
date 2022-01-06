@@ -58,38 +58,78 @@ a:hover {
 main {
   background-color: rgba(76, 218, 218, 0.95);
   margin-top: 50px;
-  margin-left: 10px;
   padding: 30px 30px;
   border-radius: 10px;
 }
 
 .donation-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
+  display: grid;
+  grid-template: auto / 1fr 2fr;
+  position: relative;
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.sad-turtle {
+  height: 220px;
+  border-radius: 10px;
+}
+
+.donation {
+  margin: auto 0;
 }
 
 .donation-heading {
-  font-size: 3rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
-  text-shadow: 1px 1px 1px grey;
+  font-size: 1.7rem;
 }
 
 .donation-description {
-  max-width: 50%;
+  max-width: 80%;
+  font-size: 0.9rem;
+}
+
+.input-container {
+  position: relative;
+}
+
+.currency-symbol {
+  position: absolute;
+  bottom: 13%;
+  left: 45%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .donation-input {
   padding: 0.8rem 1rem;
   font-weight: bold;
+  border: 1px solid teal;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.donation-input:focus {
+  outline: none;
+  border: 2px solid rgb(55, 192, 55);
 }
 
 .donation-btn {
   background-color: rgb(188, 250, 188);
-  padding: 1rem 2rem;
+  padding: 0.9rem 2rem;
+  margin-left: 1rem;
   font-weight: bold;
-  border: none;
+  border: 0.3px solid black;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px 1px rgb(206, 206, 206);
+  box-shadow: 1px 1px 1px 1px rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.donation-btn:active {
+  background-color: rgb(140, 167, 216);
 }
