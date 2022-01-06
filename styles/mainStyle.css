@@ -1,0 +1,95 @@
+body {
+  background-image: url("../images/bkg_img_1.jpeg");
+  width: 900px;
+  height: 100%;
+  margin: 10px auto;
+  padding: 0px 20px;
+  font-family: Chalkduster, fantasy, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.header {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+.slogan {
+  background: rgba(255, 255, 255, 0.7);
+  width: 100px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 0 #bcbcbc;
+}
+
+.nav-bar {
+  background-color: rgba(87, 127, 148, 0.95);
+  margin: 30px auto auto;
+  padding: 18px 0px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: white;
+  display: inline;
+  padding: 0px 75px;
+  font-size: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgba(76, 218, 218, 0.95);
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+
+.donation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.donation-heading {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.donation-description {
+  max-width: 50%;
+}
+
+.donation-input {
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+}
+
+.donation-btn {
+  background-color: rgb(188, 250, 188);
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(206, 206, 206);
+}
